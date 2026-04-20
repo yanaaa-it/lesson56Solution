@@ -20,3 +20,6 @@ string convert_to_string(int matrix[DEFAULT_SIZE][DEFAULT_SIZE], int n, int m) {
 	}
 	return s;
 }
+void print(string msg) {
+	cout << msg << endl;
+}

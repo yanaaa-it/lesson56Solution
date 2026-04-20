@@ -4,4 +4,5 @@
 
 using namespace std;
 
-int find_row_with_extreme_sum(int matrix[DEFAULT_SIZE][DEFAULT_SIZE], int n);
+int find_max_number(int matrix[DEFAULT_SIZE][DEFAULT_SIZE], int n);
+int find_min_number(int matrix[DEFAULT_SIZE][DEFAULT_SIZE], int n);

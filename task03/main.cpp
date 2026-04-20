@@ -8,13 +8,15 @@ int main() {
 	cout << "input size of the matrix:";
 	cin >> n ;
 
-	init(matrix, n, n, 0, 10);
-	cout << "matrix:\n";
-	cout << convert_to_string(matrix, n, n) << endl;
+	init(matrix,n, n, 0, 10);
+	print( "matrix:\n");
+	print(convert_to_string(matrix, n, n));
 
-	int row = find_row_with_extreme_sum(matrix, n);
+	int max = find_max_number(matrix, n);
+	int min = find_min_number(matrix, n);
 
-	cout << "index of row with sum is " << row + 1<<endl;
+	print("max number " + to_string(max));
+	print( "min number" + to_string(min));
 
 	return 0;
 }
